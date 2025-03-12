@@ -1,0 +1,10 @@
+<p>form works!</p>
+
+
+<form [formGroup]="myform" (ngSubmit)="onSubmit()">
+    <input formControlName="name" placeholder="Enter name">
+    <button type="submit">Submit</button>
+  </form>
+
+  <!-- Modify app-routing.module.ts to add the form route: -->
+  
